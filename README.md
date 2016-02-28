@@ -2,12 +2,12 @@
 
 This is the sample application for the
 [*Ruby on Rails Tutorial:
-Learn Web Development with Rails*](http://www.railstutorial.org/)
-by [Michael Hartl](http://www.michaelhartl.com/). You can use this reference implementation to help track down errors if you end up having trouble with code in the tutorial. In particular, as a first debugging check I suggest getting the test suite to pass on your local machine:
+Learn Web Development with Rails*](http://www.railstutorial.org/) 
+by [Michael Hartl](http://www.michaelhartl.com/, git repo: https://github.com/mhartl/sample_app_3rd_edition.git). You can use this reference implementation to help track down errors if you end up having trouble with code in the tutorial. In particular, as a first debugging check I suggest getting the test suite to pass on your local machine:
 
 ```
 $ cd ~/workspace
-$ git clone https://github.com/mhartl/sample_app_3rd_edition.git
+$ git clone https://github.com/wenbo/railstutorial.git sample_app_3rd_edition
 $ cd sample_app_3rd_edition
 $ bundle install
 $ bundle exec rake db:migrate
