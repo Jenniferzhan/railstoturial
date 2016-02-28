@@ -17,3 +17,5 @@
 
 # Ignore Spring files.
 /spring/*.pid
+/public/uploads/
+/config/initializers/mail_setting.rb

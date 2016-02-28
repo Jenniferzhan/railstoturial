@@ -1,4 +1,7 @@
-source 'https://rubygems.org'
+source 'https://ruby.taobao.org'
+
+gem 'therubyracer'
+gem 'execjs'
 
 gem 'rails',                   '4.2.2'
 gem 'bcrypt',                  '3.1.7'
